@@ -30,7 +30,7 @@ new class extends Component {
             <p class="block mt-2 mb-2 text-xl font-medium text-gray-800 dark:text-gray-300">Number</p>
             <x-ts-number chevron />
         </div>
-        <div class="p-6 rounded-xl bg-gray-50 dark:bg-gray-800 max-h-fit">
+        <div class="p-6 rounded-xl bg-gray-50 dark:bg-gray-800 h-fit">
             <div class="flex items-center gap-6 mb-2">
                 <div class="">
                     <p class="block mb-2 text-xl font-medium text-gray-800 dark:text-gray-300">Radio</p>
