@@ -16,6 +16,18 @@
                         </li>
                     </x-slot>
                 </x-sidebar.link-section>   
+                <x-sidebar.link-section title="UI Components">
+                    <x-slot name="links">
+                        <li>
+                            <a href="{{ route('formlayout') }}" wire:navigate
+                                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <x-ts-icon name="table" bold
+                                    class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
+                                <span class="ms-3">Form Layout</span>
+                            </a>
+                        </li>
+                    </x-slot>
+                </x-sidebar.link-section>   
             </ul>
         </div>
     </aside>

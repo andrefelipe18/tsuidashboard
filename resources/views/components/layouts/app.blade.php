@@ -28,7 +28,7 @@
     <div class="">
         <x-topbar />
         <x-sidebar />
-        <div class="">
+    <div :class="{ 'sm:ml-64': isSidebarOpen }" class="p-4"> 
             {{ $slot }}
         </div>
     </div>
