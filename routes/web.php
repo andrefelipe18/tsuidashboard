@@ -10,4 +10,7 @@ Volt::route('/', 'pages.dashboard')
 Route::prefix('uikit')->group(function () {
     Volt::route('/formlayout', 'pages.formlayout')
         ->name('formlayout');
+
+    Volt::route('/input', 'pages.input')
+        ->name('input');
 });
