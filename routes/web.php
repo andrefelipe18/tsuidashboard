@@ -2,4 +2,5 @@
 
 use Livewire\Volt\Volt;
 
-Volt::route('/', 'pages.dashboard');
+Volt::route('/', 'pages.dashboard')
+    ->name('dashboard');
