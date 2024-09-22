@@ -1,9 +1,9 @@
 <div @toggle-sidebar.window="isSidebarOpen = !isSidebarOpen">
     <aside id="logo-sidebar"
         :class="{'-translate-x-full': !isSidebarOpen, 'translate-x-0': isSidebarOpen}"
-         class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform bg-white border-r border-gray-200 dark:bg-gray-800 dark:border-gray-700"
+        class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform bg-white dark:bg-[#18181b]"
         aria-label="Sidebar">
-        <div class="h-full px-3 pb-4 overflow-y-auto bg-white dark:bg-gray-800">
+        <div class="h-full px-3 pb-4 overflow-y-auto bg-white dark:bg-[#18181b]">
             <ul class="space-y-2 font-medium">
                 <li>
                     <a href="#"

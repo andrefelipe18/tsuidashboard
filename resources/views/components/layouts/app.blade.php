@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}"  x-data="tallstackui_darkTheme()" x-bind:class="{ 'dark bg-[#09090b]': darkTheme, 'bg-[#f3f4f6]': !darkTheme }">>
 
 <head>
     <meta charset="utf-8">
@@ -17,7 +17,7 @@
 <body x-data="{ isSidebarOpen: true }">
     <div class="">
         <x-topbar />
-        <x-app-sidebar />
+        <x-sidebar />
         <div class="">
             {{ $slot }}
         </div>

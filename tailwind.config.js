@@ -1,6 +1,7 @@
 /** @type {import("tailwindcss").Config} */
 import forms from "@tailwindcss/forms"; 
 export default {
+  darkMode: 'class',
   presets: [
     require("./vendor/tallstackui/tallstackui/tailwind.config.js") 
 ],
