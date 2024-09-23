@@ -1,5 +1,5 @@
 <x-ts-card>
-    <p class="block mb-2 text-xl font-medium text-gray-800 dark:text-gray-300">Circle</p>
+    <x-card.title>Circle</x-card.title>
     <div class="flex gap-4">
         <x-ts-button.circle>TS</x-ts-button.circle>
         <x-ts-button.circle icon="users" color="red" />

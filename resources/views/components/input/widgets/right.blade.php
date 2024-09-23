@@ -2,7 +2,7 @@
     <x-ts-card>
         <div class="flex items-center gap-6 mb-2">
             <div class="">
-                <p class="block mb-2 text-xl font-medium text-gray-800 dark:text-gray-300">Radio</p>
+                <x-card.title>Radio</x-card.title>
                 <div class="flex gap-4">
                     <x-ts-radio label="Rio de Janeiro" />
                     <x-ts-radio label="São Paulo" color="secondary" />
@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="">
-                <p class="block mb-2 text-xl font-medium text-gray-800 dark:text-gray-300">Checkbox</p>
+                <x-card.title>Checkbox</x-card.title>
                 <div class="flex gap-4">
                     <x-ts-checkbox label="Rio de Janeiro" />
                     <x-ts-checkbox label="São Paulo" color="secondary" />

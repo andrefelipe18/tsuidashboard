@@ -1,5 +1,5 @@
 <x-ts-card>
-    <p class="block mb-2 text-xl font-medium text-gray-800 dark:text-gray-300">Outline</p>
+    <x-card.title>Outline</x-card.title>
     <div class="flex gap-4">
         <x-ts-button text="Red" color="red" outline />
         <x-ts-button text="Orange" color="orange" outline />
