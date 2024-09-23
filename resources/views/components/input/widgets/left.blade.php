@@ -1,5 +1,5 @@
 <x-ts-card>
-    <p class="block mb-2 text-xl font-medium text-gray-800 dark:text-gray-300">InputText</p>
+    <x-card.title>Input</x-card.title>
     <div class="grid grid-cols-3 gap-2">
         <x-ts-input placeholder="Default" />
         <x-ts-input placeholder="Disabled" disabled />

@@ -17,4 +17,7 @@ Route::prefix('uikit')->group(function () {
 
     Volt::route('/button', 'pages.button')
         ->name('button');
+
+    Volt::route('/panel', 'pages.panel')
+        ->name('panel');
 });

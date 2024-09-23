@@ -1,5 +1,5 @@
 <x-ts-card>
-    <p class="block mb-2 text-xl font-medium text-gray-800 dark:text-gray-300">Left & Right Slots </p>
+    <x-card.title>Slots</x-card.title>
     <div class="flex gap-4">
         <x-ts-button>
             <x-slot:left>

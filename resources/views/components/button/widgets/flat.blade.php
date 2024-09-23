@@ -1,5 +1,5 @@
 <x-ts-card>
-    <p class="block mb-2 text-xl font-medium text-gray-800 dark:text-gray-300">Flat Variations</p>
+    <x-card.title>Flat</x-card.title>
     <div class="flex gap-4">
         <x-ts-button text="Red" color="red" flat />
         <x-ts-button text="Orange" color="orange" flat />
